@@ -1,1 +1,188 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*{
+    border: none/*2px solid orange*/;
+}
+
+.top {
+    background-color: rgb(188, 237, 252);
+    padding: 14px 40px;
+    font-size: 12px;
+    font-family: "IBM Plex Serif";
+    padding: 14px 40px;
+}
+
+h1 {
+    font-family: "Dancing Script";
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    min-width: 5vw;
+}
+
+#home {
+    min-width: 5vw;
+    text-decoration: none;
+}
+
+#about{
+    min-width: 5vw;
+    text-decoration: none;
+}
+
+#contact {
+    min-width: 6vw;
+    text-decoration: none;
+}
+
+#projects{
+    min-width:5vw;
+    text-decoration: none;
+}
+
+
+#home #about #content #projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#big-button{
+/*margin-top: 10px;*/
+margin-bottom: 40px;
+}
+
+
+body .body-2 .header #header-image {
+    border-radius: 5px;
+    font-family: "IBM Plex Serif";
+}
+
+button {
+    background-color: lightpink;
+    border: none;
+    font-size: 12px;
+    padding: 14px 40px;
+    border-radius: 2px;
+    font-family: "IBM Plex Serif";
+}
+
+#p{
+    height: 80%;
+}
+
+.header {
+    display:flex;
+    padding: 14px 40px;
+}
+
+/*.body-2 .header .header-text #p {
+    min-height: 10vh;
+}*/
+
+h3{
+    height:20%;
+    font-size: 40px;
+}
+
+button {
+    display: flex;
+    justify-content:space-around;
+}
+
+#p {
+    display: flex;
+    justify-content:space-around;
+    height:20%;}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px 40px;
+    justify-content:space-evenly;
+    min-height: 80vh;
+}
+
+.image-one .image-two .image-three .image-four .image-five .image-six .image-seven .image-eight {
+    justify-content: space-around;
+    width: 20%;
+}
+
+footer {
+    min-height: 30vh;
+    min-width: 80vw;
+    justify-content:space-evenly;
+    margin: 40px;
+    }
+
+#second-button{
+    margin: 20px 0;
+}
+
+}
+/*footer .bottom-items{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    min-height: 100vh;
+}
+
+
+
+.fa-facebook .fa-twitter .fa-instagram .fa-dribbble {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;*/
+
+   
